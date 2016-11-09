@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+body{font-family:Micrsoft YaHei, "微软雅黑"; font-size:14px;background:#484852;}
+a{text-decoration:none;}
+ul,li{list-style-type:none;}
+img{border:none;}
+
+#top{background:#147aae; width:100%; height:70px; overflow:hidden;}
+
+ul.leftMenu{width:180px; overflow:hidden;}
+ul.leftMenu li{width:160px; overflow:hidden; background:#484852;  border-bottom: 1px dashed #333; padding:2px;}
+ul.leftMenu li a{display:block; display:inline-block; width:120px; padding-left:35px; height:34px; line-height:32px; background:url(../images/+.jpg) no-repeat 5px center; color:#ccc;}
+ul.leftMenu li ul.sonMenu{background:none; background:#333}
+ul.leftMenu li ul.sonMenu li{background:none;}
+ul.leftMenu li ul.sonMenu li a{width:110px; padding-left:40px; background:url(../images/-.jpg) no-repeat 12px center; font-size:12px; color:#999;}
+ul.leftMenu li a:hover,ul.leftMenu li ul.sonMenu li a:hover{ color:#fff}
+.sonBox{display:none;}
+
+.topLeft{width:330px; height:70px; background:url(../images/innerLogo.jpg) no-repeat right; float:left;}
+.topMain{width:550px;; height:45px; overflow:hidden; float:left; text-align:left; padding-top:25px;color: #fff;}
+.topRight{width:210px; height:70px; float:right;}
+
+.a:link {
+	text-decoration: none;
+}
+.a:visited {
+	text-decoration: none;
+}
+.a:hover {
+	text-decoration: none;
+	color: #ff0000;
+	
+}
+.a:active {
+	text-decoration: none;
+}
