@@ -18,7 +18,7 @@ $jifen = 0;
 foreach($list as $a){
     $jifen +=$a['jifen'];
 }
-$total = $jifen+$classData['reg_jifen']+$classData['login_jifen']+$classData['rz_jifen']+$classData['vip_jifen'];
+$total = $jifen+$classData['reg_jifen']+$classData['login_jifen']+$classData['rz_jifen']+$classData['vip_jifen']+$classData['success_jifen'];
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
